@@ -66,7 +66,7 @@ while (destino != "no") {
 
     while (destino === "no") {
         carrito.forEach((carritoFinal) => {
-            alert(`Destino: ${carritoFinal.viaje}, Unidades: ${carritoFinal.unidades}, Total a pagar: ${carritoFinal.unidades * carritoFinal.precio}`)
+            alert(` Destino: ${carritoFinal.viaje} \n Unidades: ${carritoFinal.unidades} \n Total a pagar: ${carritoFinal.unidades * carritoFinal.precio}`)
         })
         break
     }
