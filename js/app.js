@@ -31,7 +31,7 @@ function elegirDestino() {
     alert(eleccionDestino.join(" - "))
 
     eleccionDestino = prompt("A que ciudad desea viajar?")/* .toLowerCase() no funciona aca */
-
+    
     eleccionUsuario = packViajes.find((viaje) => viaje.city == eleccionDestino);
 
     if (eleccionUsuario != undefined) {
@@ -75,7 +75,7 @@ function acumuladorCarrito() {
             alert("Gracias por su compra. Adios!")
 
             carrito.forEach((carritoFinal) => {
-                alert(`Destino: ${carritoFinal.Ciudad}, Precio: ${carritoFinal.Precio}, Pasajes: ${carritoFinal.Cantidad} `)
+                alert(` Destino: ${carritoFinal.Ciudad}\n Precio por unidad: $${carritoFinal.Precio}\n Pasajes: ${carritoFinal.Cantidad} `)
             })
 
         } else if (seguirComprando == "si") {
@@ -91,7 +91,7 @@ function acumuladorCarrito() {
 }
 
 const total = carrito.reduce((acumulador, numero) => acumulador + numero.Precio * numero.Cantidad, 0)
-alert(`El total a pagar es: ${total}`)
+alert(`El total acumulado a pagar es: $${total}`)
 
 
 
