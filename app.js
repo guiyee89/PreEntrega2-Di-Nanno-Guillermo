@@ -65,7 +65,6 @@ function acumuladorCarrito() {
         Ciudad: eleccionUsuario.city,
         Precio: eleccionUsuario.precio,
         Cantidad: unidades,
-
     })
 
     do {
