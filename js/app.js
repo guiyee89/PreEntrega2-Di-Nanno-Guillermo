@@ -30,7 +30,7 @@ function elegirDestino() {
     let eleccionDestino = packViajes.map((elDestino) => elDestino.city + " " + "$" + elDestino.precio);
     alert(eleccionDestino.join(" - "))
 
-    eleccionDestino = prompt("A que ciudad desea viajar?")/* .toLowerCase() no funciona aca */
+    eleccionDestino = prompt("A que ciudad desea viajar?\n\n" )/* .toLowerCase() no funciona aca.. Por que??*/
     
     eleccionUsuario = packViajes.find((viaje) => viaje.city == eleccionDestino);
 
@@ -55,7 +55,7 @@ function seleccionarPasajes() {
         alert("Opcion invalida. Hasta un maximo de 10 pasajes")
         seleccionarPasajes()
     }
-
+    
 }
 
 function acumuladorCarrito() {

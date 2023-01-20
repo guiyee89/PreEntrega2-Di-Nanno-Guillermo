@@ -1,6 +1,6 @@
 const packViajes = [
     {
-        city: "Sydney",
+        city: "sydney",
         precio: 1200,
         servicio: {
             atencion: "incluye atencion al cliente 24/7", 
@@ -13,7 +13,7 @@ const packViajes = [
         }
     },
     {
-        city: "Melbourne",
+        city: "melbourne",
         precio: 1100,
         servicio: {
             atencion: "incluye atencion al cliente 24/7",
@@ -26,7 +26,7 @@ const packViajes = [
         }
     },
     {
-        city: "Brisbane",
+        city: "brisbane",
         precio: 1000,
         servicio: {
             atencion: "incluye atencion al cliente 24/7",
@@ -39,7 +39,7 @@ const packViajes = [
         }
     },
     {
-        city: "Gold Coast",
+        city: "gold coast",
         precio: 950,
         servicio: {
             atencion: "incluye atencion al cliente 24/7",
